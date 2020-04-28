@@ -1,0 +1,23 @@
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyA10TxPB4WfDeYh4q1uCpNtcOtb3TxrrQg",
+    authDomain: "self-chat-79c73.firebaseapp.com",
+    databaseURL: "https://self-chat-79c73.firebaseio.com",
+    projectId: "self-chat-79c73",
+    storageBucket: "self-chat-79c73.appspot.com",
+    messagingSenderId: "325102665362",
+    appId: "1:325102665362:web:f5cc49c8a447745fa7704b",
+    measurementId: "G-P2TFJLCRFV"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
